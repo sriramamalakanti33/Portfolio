@@ -1,0 +1,176 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #e0f7fa; /* Light blue shade */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Main App container */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  color: white;
+  text-align: center;
+  animation: fadeInDown 1s ease-out;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  color: cyan;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+nav a.active {
+  background-color: #00bcd4;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Page Content */
+.main-content {
+  flex: 1;
+  padding: 3rem;
+  background: #ffffff;
+  margin: 2rem auto;
+  border-radius: 12px;
+  max-width: 1200px;
+  transition: all 0.3s ease;
+}
+
+/* Animated Sections */
+.home-page {
+  color: #ffffff;
+  text-align: center;
+  padding: 4rem;
+  border-radius: 12px;
+  animation: fadeInUp 1s ease-out;
+}
+
+.projects-page,
+.about-page,
+.contact-page {
+  background-color: #f0f4f8;
+  border-radius: 12px;
+  padding: 3rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.projects-page:hover,
+.about-page:hover,
+.contact-page:hover {
+  transform: scale(1.02);
+}
+
+/* Footer */
+footer {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  animation: fadeInUp 1s ease-out;
+}
+
+footer p {
+  font-size: 1rem;
+  margin: 0;
+  opacity: 0;
+  animation: fadeInUp 1.2s ease-out forwards;
+}
+
+/* Keyframe Animations */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+  }
+
+  .main-content {
+    padding: 2rem;
+  }
+
+  .home-page {
+    padding: 2rem;
+  }
+
+  footer {
+    position: relative;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    font-size: 1.6rem;
+    padding: 1rem;
+  }
+
+  nav a {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+
+  .home-page {
+    font-size: 1rem;
+  }
+
+  footer p {
+    font-size: 0.9rem;
+  }
+}
