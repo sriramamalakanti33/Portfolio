@@ -40,6 +40,13 @@ const projectsData = [
     link: 'https://github.com/your-profile/api-server',
     category: 'Backend',
   },
+   {
+    title: 'Age_Calculator',
+    description: 'This Python script calculates a persons age in years, months, and days from their birthdate entered in DD/MM/YYYY format. It handles invalid birthdates and input formats, providing a user-friendly age calculation.',
+    image: Age,
+    link: 'https://github.com/your-profile/api-server',
+    category: 'Backend',
+  },
 ];
 
 export default projectsData;
