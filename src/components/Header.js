@@ -14,10 +14,10 @@ const Header = () => {
     <header className="header">
       <nav className={`nav ${isMobileMenuOpen ? 'open' : ''}`}>
         <div className="logo">
-          <Link to="/">Sriram Amalakanti</Link>
+          <Link to="/Portfolio">Sriram Amalakanti</Link>
         </div>
         <ul className="nav-links">
-          <li><Link to="/">Home</Link></li>
+          <li><Link to="/Portfolio">Home</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/projects">Projects</Link></li>
           <li><Link to="/contact">Contact</Link></li>
