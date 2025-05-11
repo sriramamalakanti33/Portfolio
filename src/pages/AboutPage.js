@@ -48,9 +48,18 @@ function About() {
       <div className="certifications">
         <h3>Certifications</h3>
         <ul>
-          <li>✅ Full-Stack Web Development - [Platform Name], [Year]</li>
-          <li>✅ Advanced React.js - [Platform Name], [Year]</li>
-          <li>✅ JavaScript Algorithms & Data Structures - [Platform Name], [Year]</li>
+          <li>✅ Data Analysis with Python - [IBM], [2022]</li>
+          <li>✅ Communication and amp; Network Security - [Infosys], [2023]</li>
+          <li>✅ Fundamentals of Java Programming - [Board Infinity], [2024]</li>
+          <li>✅ Cloud Security Fundamentals - [Paloalto Networks], [2024]</li>
+          <li>✅ Cybersecurity Fundamentals - [Paloalto Networks], [2024]</li>
+          <li>✅ Fundamentals of Information Security - [Infosys], [2023]</li>
+          <li>✅ Fundamentals of Cryptography - [Infosys], [2023]</li>
+          <li>✅ Identity and Access Management IAM - [Infosys], [2023]</li>
+          <li>✅ Introduction to Cyber Security - [Infosys], [2023]</li>
+          <li>✅ Introduction to Python - [IBM], [2022]</li>
+          <li>✅ Java SE 11 Programmer II: Secure Coding in Java SE 11 Applications - [Infosys], [2023]</li>
+          <li>✅ Networking and Web Technology - [Infosys], [2023]</li>
         </ul>
       </div>
       <h3>Fun Fact:</h3>
