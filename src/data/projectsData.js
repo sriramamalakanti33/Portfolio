@@ -2,6 +2,7 @@ import PW from '../assets/images/pwg.png'
 import ca from '../assets/images/cal.png'
 import tc from '../assets/images/tc.png'
 import Age from '../assets/images/age.png'
+import PG from '../assets/images/PG.png'
 const projectsData = [
   {
     title: 'E-commerce App',
@@ -37,14 +38,14 @@ const projectsData = [
     title: 'Age_Calculator',
     description: 'This Python script calculates a persons age in years, months, and days from their birthdate entered in DD/MM/YYYY format. It handles invalid birthdates and input formats, providing a user-friendly age calculation.',
     image: Age,
-    link: 'https://github.com/your-profile/api-server',
+    link: 'https://github.com/sriramamalakanti33/Age-Calculator',
     category: 'Backend',
   },
    {
-    title: 'Age_Calculator',
-    description: 'This Python script calculates a persons age in years, months, and days from their birthdate entered in DD/MM/YYYY format. It handles invalid birthdates and input formats, providing a user-friendly age calculation.',
-    image: Age,
-    link: 'https://github.com/your-profile/api-server',
+    title: 'Password Generator',
+    description: 'This is a simple project Java-based utility designed to generate secure random passwords and passphrases with customizable options. The generated passwords can include uppercase letters, lowercase letters, numbers, and special characters.',
+    image: PG,
+    link: 'https://github.com/sriramamalakanti33/PasswordGenerator',
     category: 'Backend',
   },
 ];
