@@ -90,7 +90,6 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Right Side - Contact Form */}
         <div className="contact-form">
           <h2 className="contact">Contact Me</h2> 
           <form onSubmit={sendEmail} className="space-y-4">
