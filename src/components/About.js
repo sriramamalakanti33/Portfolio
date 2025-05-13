@@ -3,8 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import './About.css'
 
 const AboutDemo = () => {
-  const navigate = useNavigate(); // using the useNavigate hook
-
+  const navigate = useNavigate(); 
   const handleRedirect = () => {
     navigate('/about'); 
   };

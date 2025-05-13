@@ -29,11 +29,11 @@ function About() {
         <div className="experience">
           <h3>Experience:</h3>
           <ul>
-            <li>💼 <strong>Agile Methodology Virtual Experience Program</strong> - Cognizant (December 2022)</li>
-            <li>💼 <strong>Web Developer Intern</strong> - Raj Reddy Center for Technology and Society (RCTS), IIIT Hyderabad (2023 - 2024)</li>
-            <li>💼 <strong>AI/ML Virtual Internship</strong> - India Edu Program and Google for Developers (Jan 2024 - March 2024)</li>
-            <li>💼 <strong>Andorid Developer Virtual Internship</strong> - India Edu Program and Google for Developers (April 2024 - June 2024)</li>
-            <li>💼 <strong>Zero Trust Cloud Security Virtual Internship</strong> - Zscaler (October 2024 - December 2024)</li>
+            <li>💼 <strong>Agile Methodology Virtual Experience Program </strong> - Cognizant (December 2022)</li>
+            <li>💼 <strong>Web Developer Intern </strong> - Raj Reddy Center for Technology and Society (RCTS), IIIT Hyderabad (August 2023 - April 2024)</li>
+            <li>💼 <strong>AI/ML Virtual Internship </strong> - India Edu Program and Google for Developers (Jan 2024 - March 2024)</li>
+            <li>💼 <strong>Andorid Developer Virtual Internship </strong> - India Edu Program and Google for Developers (April 2024 - June 2024)</li>
+            <li>💼 <strong>Zero Trust Cloud Security Virtual Internship </strong> - Zscaler (October 2024 - December 2024)</li>
           </ul>
         </div>
         {/* Education Section */}
@@ -63,7 +63,7 @@ function About() {
           <li>✅ Cloud Security Fundamentals - [Paloalto Networks], [2024]</li>
           <li>✅ Cybersecurity Fundamentals - [Paloalto Networks], [2024]</li>
         </ul>
-      </div>
+      </div>            
       <h3>Fun Fact:</h3>
       <p>
         When I'm not coding, you can find me exploring nature, photography, or working on my passion project: a blog where I share insights about web development and technology trends.

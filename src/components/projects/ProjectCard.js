@@ -1,5 +1,3 @@
-
-
 const ProjectsCard = ({ project }) => {
   return (
     <div className="project-card">
