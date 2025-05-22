@@ -11,9 +11,9 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-section">
           <h4>Contact Information</h4>
-          <p>Email: sriramamalakanti369@gmail.com.com</p>
-          <p>Phone: +91 9963859042</p>
-          <p>Address: 1-91/1, Main Road,Near Water Tank, Prakash Rao Peta, Unduru, Samalakot-533434, Andhra Pradesh, India</p>
+          <p><strong>Email:</strong> sriramamalakanti369@gmail.com</p>
+          <p><strong>Phone:</strong> +91 9963859042</p>
+          <p><strong>Address:</strong> 1-91/1, Main Road, Near Water Tank, Prakash Rao Peta, Unduru, Samalakot - 533434, Andhra Pradesh, India</p>
         </div>
         <div className="footer-section">
           <h4>Follow Me</h4>

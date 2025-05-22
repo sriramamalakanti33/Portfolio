@@ -3,6 +3,8 @@ import ca from '../assets/images/cal.png'
 import tc from '../assets/images/tc.png'
 import Age from '../assets/images/age.png'
 import PG from '../assets/images/PG.png'
+import LC from '../assets/images/LC.png'
+import PO from '../assets/images/PO.png'
 const projectsData = [
   {
     title: 'E-commerce App',
@@ -11,7 +13,13 @@ const projectsData = [
     link: 'https://github.com/your-profile/ecommerce-app',
     category: 'Full-Stack',
   },
- 
+  {
+    title: 'Personal Portfolio',
+    description: 'A personal portfolio website to showcase my projects and skills.',
+    image: PO,
+    link: 'https://github.com/sriramamalakanti33/Portfolio',
+    category: 'Frontend',
+  },
   {
     title: 'A Caculator',
     description: 'A simple web-based calculator built using HTML, CSS, and JavaScript. The calculator allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.',
@@ -46,6 +54,13 @@ const projectsData = [
     description: 'This is a simple project Java-based utility designed to generate secure random passwords and passphrases with customizable options. The generated passwords can include uppercase letters, lowercase letters, numbers, and special characters.',
     image: PG,
     link: 'https://github.com/sriramamalakanti33/PasswordGenerator',
+    category: 'Backend',
+  },
+  {
+    title: 'Love Calculator',
+    description: 'This project is a simple Python Project that allows users to check the compatibility between two names based on a love percentage. The application uses a basic algorithm to calculate the love percentage and provides a fun and entertaining result.', 
+    image: LC,
+    link: 'https://github.com/sriramamalakanti33/Love_Score',
     category: 'Backend',
   },
 ];

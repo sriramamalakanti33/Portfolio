@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare, FaPython } from 'react-icons/fa';
 import './Skills.css'; // Don't forget to add your CSS file!
 
 const Skills = () => {
@@ -41,16 +41,22 @@ const Skills = () => {
           <h3>CSS3</h3>
           <p>Crafting beautiful, responsive designs with CSS3, Flexbox, and Grid.</p>
         </div>
+          <div className="skill-card">
+          < FaPython size={50} className="icon" />
+          <h3>Python</h3>
+          <p>A versatile language used for a wide range of applications, including web development, data science, machine learning, and software development</p>
+        </div>
       </div>
 
       <h3>Other Technologies Iam Learning to Work With:</h3>
       <ul className="tech-list">
+        <li>Java</li>
+        <li>Bootstrap</li>
         <li>TypeScript</li>
         <li>Express.js</li>
         <li>MongoDB</li>
         <li>Git & GitHub</li>
         <li>REST APIs</li>
-        <li>Responsive Design</li>
       </ul>
     </section>
   );
